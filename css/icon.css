@@ -1,0 +1,35 @@
+.btn-icon-nav {
+    background-color: #1876f2;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 22px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn-icon-nav:hover {
+    background-color: RoyalBlue;
+  }
+  .btn-icon-sidebar {
+      width: 100%;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      padding: 0 15px;
+      background-color: transparent;
+      border: none;
+      font-size: 16px;
+    }
+  .btn-icon-sidebar i{
+    margin-right: 20px;
+    font-size: 27px;
+  }
+  .btn-activity{
+   background-color: transparent;
+   color: RoyalBlue;
+   border: transparent;
+   font-size: 25px;
+   margin-right: 10px;
+  }

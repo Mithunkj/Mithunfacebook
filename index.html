@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index</title>
+    <link rel="stylesheet" href="./css/index.css" />
+    <!-- Add icon library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./css/icon.css" />
+    <link rel="stylesheet" href="./css/cardImg.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-left">
+        <h2 style="color: #fff; font-size: 30px">Mfacebook</h2>
+        <!-- <img src="..." class="logo" alt=""> -->
+
+        <ul>
+          <!-- <li><img src="./imagebell.svg"></li>
+                <li><img src="./imageenvelope.svg" ></li>
+                <li><img src="./imageyoutube.svg" alt=""></li> -->
+          <li>
+            <button class="btn-icon-nav">
+              <i class="fa fa-bell-o" aria-hidden="true"></i>
+            </button>
+          </li>
+          <li>
+            <button class="btn-icon-nav">
+              <i class="fa fa-envelope-o" aria-hidden="true"></i>
+            </button>
+          </li>
+          <li>
+            <button class="btn-icon-nav">
+              <i class="fa fa-youtube-play" aria-hidden="true"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-reight">
+        <div class="search-box">
+          <img src="./imagesearch.svg" alt="" />
+          <input type="text" placeholder="Search" />
+        </div>
+        <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+          <img src="./image/image6.jpg" alt="" />
+        </div>
+      </div>
+
+      <!--setting menu-->
+      <div class="settings-menu">
+        <div id="dark-btn">
+          <!--class="dark-btn-on"-->
+          <span></span>
+        </div>
+        <div class="settings-menu-inner">
+          <div class="user-profile">
+            <img src="./image/image2.jpg" alt="" />
+            <div>
+              <p>Sannidi</p>
+              <a href="#">See your profile</a>
+            </div>
+          </div>
+          <hr />
+          <div class="user-profile">
+            <i class="bi bi-chat-left-heart fs-3 me-4"></i>
+            <div>
+              <p>Give Feedback</p>
+              <a href="#">Help us your improve the new design</a>
+            </div>
+          </div>
+          <hr />
+          <div class="setting-links">
+            <i class="bi bi-gear fs-3 me-4"></i>
+            <a href="#">Setting & privacy </a>
+          </div>
+          <div class="setting-links">
+            <i class="bi bi-question-circle fs-3 me-4"></i>
+            <a href="#">Help 
+          </div>
+          <div class="setting-links">
+            <i class="bi bi-moon-fill fs-3 me-4"></i>
+            <a href="#"
+              >Display & Accesibility</a>
+          </div>
+          <div class="setting-links">
+            <i class="bi bi-box-arrow-right fs-3 me-4"></i>
+            <a href="#">Logout</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container1 row">
+      <!--left sidebar-->
+      <div class="left-sidebar">
+        <div class="img-links">
+          <a href="#"
+            ><button class="btn-icon-sidebar">
+              <i class="bi bi-newspaper"></i>Lastest News
+            </button></a
+          >
+          <a href="#"
+            ><button class="btn-icon-sidebar">
+              <i class="bi bi-people-fill"></i>Friends
+            </button></a
+          >
+          <a href="#"
+            ><button class="btn-icon-sidebar">
+              <i class="fa fa-users" aria-hidden="true"></i> Group
+            </button></a
+          >
+          <a href="#"
+            ><button class="btn-icon-sidebar">
+              <i class="fa fa-cart-arrow-down" aria-hidden="true"></i> market
+              place
+            </button></a
+          >
+          <a href="#"
+            ><button class="btn-icon-sidebar">
+              <i class="bi bi-youtube"></i> Watch
+            </button></a
+          >
+          <a href="#">See more</a>
+          <!-- <a href="#" ><img src="./imagenewspaper.svg" alt="">Lastest News</a> -->
+          <!-- <a href="#"><img src="./imagepeople-fill.svg" alt="">Friends</a> -->
+          <!-- <a href="#"><img src="./imagegroup.jpg" style="width:40px;" alt="">Group</a> -->
+          <!-- <a href="#"><img src="./imageshop-window.svg" alt="">market place</a> -->
+          <!-- <a href="#"><img src="./imageyoutube.svg" alt="">Watch</a>  -->
+
+          <div class="shortcut-links">
+            <p>Your Shortcuts</p>
+            <a href="#"><img src="./image/website_development.jpg" alt="" />Web Develpor</a>
+            <a href="#"
+              ><img src="./image/Customized_website_design.jpg" alt="" />Web Desing course</a
+            >
+            <a href="#"
+              ><img src="./image/full stack.jpg" alt="" />Full stack Development</a
+            >
+            <a href="#"><img src="./image/image1.jpgg" alt="" />Web Experts</a>
+          </div>
+        </div>
+      </div>
+      <!--main content-->
+      <!-- <div class="main-content col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12"> -->
+      <div class="main-content">
+        <div class="cardrow">
+          <div class="cardImg">
+            <div class="cardImg1">
+              <img src="./image/image2.jpg  " alt="" />
+            </div>
+            <div class="cardImg2">
+              <img src="./image/image2.jpg" alt="" />
+            </div>
+          </div>
+          <div class="cardImg">
+            <div class="cardImg1">
+              <img src="./image/image3.jpg " alt="" />
+            </div>
+            <div class="cardImg2">
+              <img src="./image/image3.jpg " alt="" />
+            </div>
+          </div>
+          <div class="cardImg">
+            <div class="cardImg1">
+              <img src="./image/image4.jpg " alt="" />
+            </div>
+            <div class="cardImg2">
+              <img src="./image/image4.jpg" alt="" />
+            </div>
+          </div>
+          <div class="cardImg">
+            <div class="cardImg1">
+              <img src="./image/image5.jpg " alt="" />
+            </div>
+            <div class="cardImg2">
+              <img src="./image/image5.jpg" alt="" />
+            </div>
+          </div>
+          <div class="cardImg">
+            <div class="cardImg1"><img src="./image/image1.jpg " alt="" /></div>
+            <div class="cardImg2"><img src="./image/image1.jpg" alt="" /></div>
+          </div>
+        </div>
+
+        <div class="write-post-container">
+          <div class="user-profile">
+            <img src="./image/image1.jpg" alt="" />
+            <div>
+              <p>Mithun</p>
+              <small>Public : -</small>
+            </div>
+          </div>
+
+          <div class="post-input-container">
+            <textarea
+              rows="3"
+              placeholder="Write on your mind ,Mithun ?"
+            ></textarea>
+            <div class="add-post-link justify-content-around">
+              <a href="#"
+                ><i class="bi bi-file-play fs-3 me-2"></i> Live Video</a
+              >
+              <a href="#"><i class="bi bi-images fs-3 m-2"></i> Photo/Video</a>
+              <a href="#"
+                ><i class="bi bi-emoji-laughing fs-3 me-2"></i> Feling Active</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="card p-3 mt-3">
+          <div>
+            <p>Suggested for you</p>
+            <hr />
+            <div class="user-profile">
+              <img src="./image/image41.jpg" alt="" />
+              <div>
+                <p class="fw-bold">Ganesh</p>
+                <span>June 24 2022, 19:30 pm</span>
+              </div>
+              <div class="ms-auto fs-3 gap-3">
+                <i class="bi bi-three-dots"></i>
+                <i class="bi bi-x-lg"></i>
+              </div>
+            </div>
+          </div>
+          <div class="mt-3">
+            <p class="text-muted">
+              Subscribe On my 1 <span>youtue chanal</span>
+              <a href="#">Youtube chanal</a><a href="#">My New copy</a>
+            </p>
+            <img src="./image/image4.jpg" class="card-img-top" alt="" />
+          </div>
+          <div>
+            <div class="d-flex justify-content-between mt-4">
+              <p><i class="bi bi-hand-thumbs-up-fill"></i> 80k</p>
+              <div class="d-flex gap-3">
+                <p>160 comments</p>
+                <p>85 shares</p>
+              </div>
+            </div>
+            <hr />
+            <div class="d-flex justify-content-around">
+              <p><i class="bi bi-hand-thumbs-up"></i> Like</p>
+              <p><i class="bi bi-chat-left"></i> Comment</p>
+              <p><i class="bi bi-share"></i> Share</p>
+            </div>
+          </div>
+        </div>
+        <div class="card p-3 mt-3">
+          <div>
+            <p>Suggested for you</p>
+            <hr />
+            <div class="user-profile">
+              <img src="./image/image2.jpg" alt="" />
+              <div>
+                <p class="fw-bold">Sannidi</p>
+                <span>June 24 2022, 19:30 pm</span>
+              </div>
+              <div class="ms-auto fs-3 gap-3">
+                <i class="bi bi-three-dots"></i>
+                <i class="bi bi-x-lg"></i>
+              </div>
+            </div>
+          </div>
+          <div>
+            <p class="text-muted">Happy candal day</p>
+            <img src="./image/image2.jpg" class="card-img-top" alt="" />
+          </div>
+          <div>
+            <div class="d-flex justify-content-between mt-4">
+              <p><i class="bi bi-hand-thumbs-up-fill"></i> 80k</p>
+              <div class="d-flex gap-3">
+                <p>160 comments</p>
+                <p>85 shares</p>
+              </div>
+            </div>
+            <hr />
+            <div class="d-flex justify-content-around">
+              <p><i class="bi bi-hand-thumbs-up"></i> Like</p>
+              <p><i class="bi bi-chat-left"></i> Comment</p>
+              <p><i class="bi bi-share"></i> Share</p>
+            </div>
+          </div>
+        </div>
+        <div class="card p-3 mt-3">
+          <div>
+            <p>Suggested for you</p>
+            <hr />
+            <div class="user-profile">
+              <img src="./image/image31.jpg" alt="" />
+              <div>
+                <p class="fw-bold">Priya</p>
+                <span>May 24 2023, 19:30 pm</span>
+              </div>
+              <div class="ms-auto fs-3 gap-3">
+                <i class="bi bi-three-dots"></i>
+                <i class="bi bi-x-lg"></i>
+              </div>
+            </div>
+          </div>
+          <div>
+            <p class="text-muted">Glass House</p>
+            <img src="./image/image9.jpg" class="card-img-top" alt="" />
+          </div>
+          <div>
+            <div class="d-flex justify-content-between mt-4">
+              <p><i class="bi bi-hand-thumbs-up-fill"></i> 120k</p>
+              <div class="d-flex gap-3">
+                <p>200 comments</p>
+                <p>92 shares</p>
+              </div>
+            </div>
+            <hr />
+            <div class="d-flex justify-content-around">
+              <p><i class="bi bi-hand-thumbs-up"></i> Like</p>
+              <p><i class="bi bi-chat-left"></i> Comment</p>
+              <p><i class="bi bi-share"></i> Share</p>
+            </div>
+          </div>
+        </div>
+
+        <button type="button" class="load-more-btn mt-3">Load More</button>
+      </div>
+
+      <!--right sidebar-->
+      <!-- <div class="right-sidebar col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12"> -->
+      <div class="right-sidebar">
+        <div class="sidebar-title">
+          <h4>Events</h4>
+          <a href="#">See All</a>
+        </div>
+
+        <div class="event">
+          <div class="left-event">
+            <h3>18</h3>
+            <span>March</span>
+          </div>
+          <div class="right-event">
+            <h4>SocialMedia</h4>
+            <p><i class="bi bi-geo-alt fs-3 me-2"></i> Willson Tech Park</p>
+            <a href="#">Mear Info</a>
+          </div>
+        </div>
+        <div class="event">
+          <div class="left-event">
+            <h3>22</h3>
+            <span>March</span>
+          </div>
+          <div class="right-event">
+            <h4>Mobile</h4>
+            <p><i class="bi bi-geo-alt fs-3 me-2"></i>Willson Tech Park</p>
+            <a href="#">Mear Info</a>
+          </div>
+        </div>
+
+        <div class="sidebar-title">
+          <h4>Advertisement</h4>
+          <a href="#">Close</a>
+        </div>
+      
+
+        <div class="sidebar-title">
+          <h4>Converstion</h4>
+          <a href="#">Hide Chat</a>
+        </div>
+
+        <div class="online-list">
+          <div class="online">
+            <img src="./image/image3.jpg" alt="" />
+          </div>
+          <p>Priya</p>
+        </div>
+        <div class="online-list">
+          <div class="online">
+            <img src="./image/image4.jpg" alt="" />
+          </div>
+          <p>Ganesh</p>
+        </div>
+        <div class="online-list">
+          <div class="online">
+            <img src="./image/image5.jpg" alt="" />
+          </div>
+          <p>Mithun</p>
+        </div>
+      </div>
+    </div>
+
+    <!--footer-->
+    <div class="footer">
+      <p>Copyrigth 2022</p>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"
+  ></script>
+</html>
